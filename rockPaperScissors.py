@@ -22,7 +22,7 @@ while True:
     computerChoice = ansChoices[randomNum]
 
     print("\nComputer chose...\n")
-    time.sleep(2)
+    time.sleep(1)
     print(computerChoice, "...\n")
 
     if playerChoice == "rock" and computerChoice == "scissors":
